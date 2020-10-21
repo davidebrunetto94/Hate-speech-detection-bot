@@ -10,4 +10,4 @@ The project is composed of 4 main modules:
  To utilize this project the constants declared in **secrets.py** need to be replaced with the actual ones, obtained from the [Twitter Developer Portal](https://developer.twitter.com/en)
  
  
- The creation of the SVM model and the tf-idf vectorizer used in the project with their respective classification reports can be found [here](https://colab.research.google.com/drive/1MX-40hylAMEqLjpaAB-CuqSKyKIzmvlA?usp=sharing), along with some other models.
+ The creation of the SVM model and the tf-idf vectorizer used in the project with their respective classification reports can be found [here](https://colab.research.google.com/drive/1MX-40hylAMEqLjpaAB-CuqSKyKIzmvlA?usp=sharing), along with other tries using different classifiers and word embedding methods.
