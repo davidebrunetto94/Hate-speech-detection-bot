@@ -1,5 +1,5 @@
 # Hate-speech-detection-bot
-A Telegram bot that uses a SVM classifier to tell whether a certain topic or a certain user's timeline contains hate speech.
+A Telegram bot that uses an SVM classifier to tell whether a certain topic or a certain user's timeline contains hate speech. The choice fell on the SVM classifier using an tf-idf vectorizer since it had the best overall performance on the dataset, with an accuracy of ~76.5%. The creation of the SVM model and the tf-idf vectorizer used in the project with their respective classification reports can be found [here](https://colab.research.google.com/drive/1MX-40hylAMEqLjpaAB-CuqSKyKIzmvlA?usp=sharing), along with other tries using different classifiers and word embedding methods.
 The project is composed of 4 main modules:
 
  * **tweets.py**, this module handles the authentication to the Twitter API and the retrieval of the tweets.
@@ -9,5 +9,4 @@ The project is composed of 4 main modules:
  
  To utilize this project the constants declared in **secrets.py** need to be replaced with the actual ones, obtained from the [Twitter Developer Portal](https://developer.twitter.com/en)
  
- 
- The creation of the SVM model and the tf-idf vectorizer used in the project with their respective classification reports can be found [here](https://colab.research.google.com/drive/1MX-40hylAMEqLjpaAB-CuqSKyKIzmvlA?usp=sharing), along with other tries using different classifiers and word embedding methods.
+
